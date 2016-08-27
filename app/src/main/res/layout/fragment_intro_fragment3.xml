@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.priyanka.test4.MainActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/logof"
+        android:alpha="0.8"
+        android:shadowColor="#000000"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="STAY\n Motivated\n AND\n Study\n HARD"
+        android:gravity="center"
+        android:id="@+id/text"
+        android:shadowColor="#000000"
+        android:textSize="35dp"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/MainStart"
+        android:layout_alignStart="@+id/MainStart" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:id="@+id/MainStart"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingRight="40dp"
+        android:paddingLeft="40dp"
+        android:text="Get Started"
+        android:background="@drawable/get_started2"
+        android:textColor="#000000"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp" />
+
+</RelativeLayout>
